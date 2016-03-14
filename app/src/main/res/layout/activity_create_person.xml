@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linlay1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7">
+
+    <LinearLayout
+        android:id="@+id/linlay2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:width="5dp"
+        android:padding="16dp"
+        android:weightSum="6">
+
+        <EditText
+            android:id="@+id/first_name"
+            style="@style/TextCreatePersonStyle"
+            android:inputType="text"
+            android:hint="@string/first_name"/>
+
+        <EditText
+            android:id="@+id/last_name"
+            style="@style/TextCreatePersonStyle"
+            android:inputType="text"
+            android:hint="@string/last_name"/>
+
+        <EditText
+            android:id="@+id/gender"
+            style="@style/TextCreatePersonStyle"
+            android:inputType="text"
+            android:hint="@string/gender"/>
+
+        <EditText
+            android:id="@+id/age"
+            style="@style/TextCreatePersonStyle"
+            android:inputType="number"
+            android:hint="@string/age"/>
+
+        <EditText
+            android:id="@+id/phone_number"
+            style="@style/TextCreatePersonStyle"
+            android:maxLength="12"
+            android:inputType="phone"
+            android:hint="@string/phone_number"/>
+
+        <Button
+            android:id="@+id/button_create"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@color/color_create_person_background"
+            android:textColorHint="@color/textColor"
+            android:textSize="25sp"
+            android:hint="@string/Create"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

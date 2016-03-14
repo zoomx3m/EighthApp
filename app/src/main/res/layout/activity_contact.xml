@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:clickable="true"
+    app:cardBackgroundColor="@color/yellow_card"
+    app:cardCornerRadius="16dp"
+    card_view:cardElevation="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rellay_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_contact" />
+
+        <Button
+            android:id="@+id/x_delete"
+            android:layout_width="@dimen/x_delete_side"
+            android:layout_height="@dimen/x_delete_side"
+            android:layout_alignEnd="@+id/contact_name"
+            android:background="@drawable/ic_close" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+

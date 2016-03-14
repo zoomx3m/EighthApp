@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus.eighthapp.ShowPersonActivity">
+
+    <LinearLayout
+        android:id="@+id/linlay3_0_asp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:width="5dp"
+        android:padding="16dp"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/linlay3_1_asp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/first_tv"
+                style="@style/TextShowPersonStyle"
+                android:gravity="end"
+                android:padding="20dp"
+                android:text="@string/first_name_tv"/>
+
+            <TextView
+                android:id="@+id/first_TV"
+                style="@style/TextShowPersonStyle"
+                android:background="@color/color_green_background"
+                android:padding="20dp"
+                android:hint="@string/first_name"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linlay3_2_asp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/last_tv"
+                style="@style/TextShowPersonStyle"
+                android:gravity="end"
+                android:padding="20dp"
+                android:text="@string/last_name_tv"/>
+
+            <TextView
+                android:id="@+id/last_TV"
+                style="@style/TextShowPersonStyle"
+                android:background="@color/color_green_background"
+                android:padding="20dp"
+                android:hint="@string/last_name"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linlay3_3_asp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/gender_tv"
+                style="@style/TextShowPersonStyle"
+                android:gravity="end"
+                android:padding="20dp"
+                android:text="@string/gender_tv"/>
+
+            <TextView
+                android:id="@+id/gender_TV"
+                style="@style/TextShowPersonStyle"
+                android:background="@color/color_green_background"
+                android:padding="20dp"
+                android:hint="@string/gender"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linlay3_4_asp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/age_tv"
+                style="@style/TextShowPersonStyle"
+                android:gravity="end"
+                android:padding="20dp"
+                android:text="@string/age_tv"/>
+
+            <TextView
+                android:id="@+id/age_TV"
+                style="@style/TextShowPersonStyle"
+                android:background="@color/color_green_background"
+                android:padding="20dp"
+                android:hint="@string/age"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linlay3_5_asp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/phone_number_tv"
+                style="@style/TextShowPersonStyle"
+                android:layout_width="185dp"
+                android:textSize="18sp"
+                android:gravity="end"
+                android:padding="20dp"
+                android:text="@string/phone_number_tv"/>
+
+            <TextView
+                android:id="@+id/phone_number_TV"
+                style="@style/TextShowPersonStyle"
+                android:layout_width="180dp"
+                android:background="@color/color_green_background"
+                android:padding="20dp"
+                android:hint="@string/phone_number"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name_1st_act">Main screen</string>
+    <string name="app_name_2nd_act">Create person</string>
+    <string name="app_name_3th_act">Show person</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="gender">gender</string>
+    <string name="age">age</string>
+    <string name="phone_number">phone number</string>
+    <string name="Create">Create</string>
+    <string name="add_contact">Add contact</string>
+
+    <string name="first_name_tv">First name:</string>
+    <string name="last_name_tv">Last name:</string>
+    <string name="gender_tv">gender:</string>
+    <string name="age_tv">age:</string>
+    <string name="phone_number_tv">phone number:</string>
+    <string name="Create_tv">Create:</string>
+    <string name="add_contact_tv">Add contact:</string>
+    <string name="add_first_name">Enter first name.</string>
+    <string name="add_phone_number">Enter phone number.</string>
+
+</resources>
